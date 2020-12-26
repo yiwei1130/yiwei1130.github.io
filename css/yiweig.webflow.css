@@ -4083,7 +4083,7 @@ blockquote {
   width: 100vw;
   height: auto;
   padding-top: 56px;
-  padding-bottom: 96px;
+  padding-bottom: 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -8161,6 +8161,7 @@ blockquote {
 }
 
 .text_center-q {
+  margin-top: 160px;
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-style: italic;
@@ -8226,10 +8227,10 @@ blockquote {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
 }
 
 .image-70 {
@@ -8442,6 +8443,7 @@ blockquote {
   z-index: 100;
   width: 760px;
   height: 467px;
+  margin-bottom: 64px;
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
@@ -8612,6 +8614,10 @@ blockquote {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+}
+
+.italic-text-10 {
+  font-weight: 300;
 }
 
 @media screen and (min-width: 1280px) {
