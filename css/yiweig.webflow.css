@@ -2442,6 +2442,8 @@ blockquote {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  max-width: none;
+  min-width: auto;
   margin-bottom: 16px;
   padding: 12px 16px;
   -webkit-box-orient: vertical;
@@ -2903,6 +2905,7 @@ blockquote {
 .wrapper_background-image {
   position: absolute;
   top: 0px;
+  display: block;
   width: auto;
   height: 100vh;
   min-width: 100%;
@@ -3254,7 +3257,7 @@ blockquote {
 }
 
 .section-7 {
-  display: none;
+  display: block;
 }
 
 .image-caption-center-2c {
@@ -4829,7 +4832,7 @@ blockquote {
 }
 
 .div-block-deliverable {
-  display: none;
+  display: block;
   margin-top: 64px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -8836,6 +8839,10 @@ blockquote {
 
 .bold-text-34 {
   font-weight: 400;
+}
+
+.section-14 {
+  margin-bottom: 100px;
 }
 
 @media screen and (min-width: 1280px) {
