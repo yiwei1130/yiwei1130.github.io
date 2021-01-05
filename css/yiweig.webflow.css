@@ -8845,6 +8845,14 @@ blockquote {
   margin-bottom: 100px;
 }
 
+.background-video-5-copy {
+  z-index: 100;
+  width: 760px;
+  height: 427px;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
 @media screen and (min-width: 1280px) {
   .nav03_container {
     margin-right: 25vw;
@@ -11836,6 +11844,16 @@ blockquote {
     margin-top: 0px;
     margin-bottom: 16px;
     line-height: 200%;
+  }
+
+  .background-video-5 {
+    width: 1080px;
+    height: 610px;
+  }
+
+  .background-video-5-copy {
+    width: 1080px;
+    height: 668px;
   }
 }
 
