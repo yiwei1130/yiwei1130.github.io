@@ -3510,7 +3510,7 @@ blockquote {
   left: auto;
   display: block;
   width: 110vw;
-  padding-top: 40px;
+  padding-top: 0px;
   padding-bottom: 64px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -3989,7 +3989,7 @@ blockquote {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  max-width: 70%;
+  max-width: none;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -4873,10 +4873,16 @@ blockquote {
 
 .div-block-70 {
   position: relative;
+  margin-top: 200px;
+}
+
+.div-block-71 {
+  margin-bottom: 100px;
 }
 
 .div-block-72 {
   position: relative;
+  margin-top: 200px;
 }
 
 .image-32 {
@@ -8853,6 +8859,37 @@ blockquote {
   object-fit: contain;
 }
 
+.div-block-43singley {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0px;
+  padding-top: 0px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.container-12 {
+  height: 100px;
+}
+
+.wrapper_background-image-loc {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffe4d8), to(#ffe4d8));
+  background-image: linear-gradient(180deg, #ffe4d8, #ffe4d8);
+}
+
 @media screen and (min-width: 1280px) {
   .nav03_container {
     margin-right: 25vw;
@@ -9776,7 +9813,7 @@ blockquote {
   }
 
   .div_article-3-column {
-    margin-top: 16px;
+    margin-top: 0px;
     margin-bottom: 40px;
     font-family: Roboto, sans-serif;
     font-size: 16px;
@@ -11854,6 +11891,18 @@ blockquote {
   .background-video-5-copy {
     width: 1080px;
     height: 668px;
+  }
+
+  .div-block-43singley {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 }
 
