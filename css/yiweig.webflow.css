@@ -7828,6 +7828,7 @@ blockquote {
 
 .link-5 {
   color: #394988;
+  text-decoration: none;
 }
 
 .italic-text-8 {
@@ -9372,8 +9373,19 @@ blockquote {
     width: 70%;
   }
 
+  .div-block-43-copy {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+
   .div-block-79 {
-    left: -30vw;
+    width: 101vw;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
   }
 
   .p-2 {
