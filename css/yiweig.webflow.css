@@ -1835,15 +1835,15 @@ blockquote {
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
-  border-left: 6px solid #7490ff;
+  border-left: 6px none #7490ff;
   font-family: Roboto, sans-serif;
-  color: #7490ff;
+  color: #333;
   font-size: 20px;
   line-height: 30px;
   font-style: normal;
   font-weight: 500;
   text-align: left;
-  text-indent: 16px;
+  text-indent: 0px;
 }
 
 .div-block-10 {
@@ -1964,6 +1964,7 @@ blockquote {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
+  margin-bottom: 16px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -3266,7 +3267,7 @@ blockquote {
 
 .image-caption-center-2c {
   position: relative;
-  top: -64px;
+  top: -48px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3993,7 +3994,7 @@ blockquote {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  max-width: none;
+  max-width: 80vw;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -5955,6 +5956,7 @@ blockquote {
 }
 
 .h3-2 {
+  display: block;
   margin-top: 180px;
   margin-bottom: 40px;
   -webkit-align-self: flex-start;
@@ -6768,7 +6770,7 @@ blockquote {
   z-index: 1;
   font-family: Tahoma, Verdana, Segoe, sans-serif;
   color: rgba(66, 153, 252, 0.76);
-  font-size: 120px;
+  font-size: 80px;
   font-weight: 400;
 }
 
@@ -8124,9 +8126,9 @@ blockquote {
   display: inline-block;
   margin-top: 72px;
   margin-bottom: 40px;
-  padding: 4px 16px;
-  background-color: #7490ff;
-  color: #f3f5f8;
+  padding: 0px;
+  background-color: transparent;
+  color: #333;
   font-size: 18px;
 }
 
@@ -8183,13 +8185,14 @@ blockquote {
   margin-top: 160px;
   font-family: Roboto, sans-serif;
   font-size: 16px;
-  font-style: italic;
+  font-style: normal;
   font-weight: 400;
   text-align: center;
 }
 
 .image-67 {
-  width: 600px;
+  width: 380px;
+  max-width: 50vw;
 }
 
 .container-7 {
@@ -8206,6 +8209,7 @@ blockquote {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 40px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -8669,12 +8673,12 @@ blockquote {
 }
 
 .h5_loc {
-  display: inline-block;
+  display: block;
   margin-top: 72px;
   margin-bottom: 40px;
-  padding: 4px 16px;
-  background-color: #ff7b00;
-  color: #f3f5f8;
+  padding: 0px;
+  background-color: transparent;
+  color: #333;
   font-size: 18px;
 }
 
@@ -8829,15 +8833,15 @@ blockquote {
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
-  border-left: 6px solid #ff7b00;
+  border-left: 6px none #ff7b00;
   font-family: Roboto, sans-serif;
-  color: #ff7b00;
+  color: #000;
   font-size: 20px;
   line-height: 30px;
   font-style: normal;
   font-weight: 500;
   text-align: left;
-  text-indent: 16px;
+  text-indent: 0px;
 }
 
 .image-85 {
@@ -8945,6 +8949,23 @@ blockquote {
 
 .heading-8 {
   font-size: 16px;
+}
+
+.goal-kip {
+  display: none;
+}
+
+.text-span-33 {
+  display: block;
+  text-align: center;
+}
+
+.text-block-17 {
+  color: #ca0404;
+}
+
+.image-88 {
+  max-width: 78vw;
 }
 
 @media screen and (min-width: 1280px) {
@@ -9570,7 +9591,7 @@ blockquote {
     direction: ltr;
     font-size: 16px;
     line-height: 200%;
-    text-align: justify;
+    text-align: left;
     text-decoration: none;
     text-indent: 0em;
     white-space: normal;
@@ -9587,6 +9608,14 @@ blockquote {
   .h3-first {
     font-family: Roboto, sans-serif;
     font-weight: 500;
+  }
+
+  .image-68 {
+    max-width: 800px;
+  }
+
+  .div-block-147 {
+    margin-bottom: 40px;
   }
 
   .p-list-nodot {
@@ -11918,6 +11947,10 @@ blockquote {
     font-weight: 400;
   }
 
+  .image-67 {
+    width: 440px;
+  }
+
   .image-69 {
     width: 660px;
   }
@@ -11973,6 +12006,23 @@ blockquote {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+  }
+
+  .text-block-17 {
+    display: none;
+  }
+
+  .image-88 {
+    max-width: 68vw;
+  }
+
+  .lightbox-link-5 {
+    margin-top: 24px;
+    margin-bottom: 16px;
+  }
+
+  .bold-text-35 {
+    font-weight: 400;
   }
 }
 
@@ -15179,6 +15229,10 @@ blockquote {
     max-width: 100%;
   }
 
+  .div-block-147 {
+    margin-bottom: 16px;
+  }
+
   .div-block-148 {
     display: -webkit-box;
     display: -webkit-flex;
@@ -15362,6 +15416,10 @@ blockquote {
   .image-83 {
     width: auto;
     max-width: 90vw;
+  }
+
+  .text-block-11-copy {
+    font-size: 80px;
   }
 
   .image-84 {
