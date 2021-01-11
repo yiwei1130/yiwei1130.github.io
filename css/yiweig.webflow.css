@@ -9637,6 +9637,10 @@ blockquote {
     font-weight: 500;
   }
 
+  .bold-text-15 {
+    font-weight: 400;
+  }
+
   .p-diagram-center {
     direction: ltr;
     line-height: 200%;
@@ -9783,6 +9787,11 @@ blockquote {
     font-weight: 400;
   }
 
+  .bold-text-27 {
+    color: #333;
+    font-size: 16px;
+  }
+
   .p-center-50 {
     direction: ltr;
     font-size: 16px;
@@ -9872,6 +9881,15 @@ blockquote {
   .background-video-6 {
     width: 700px;
     height: 431px;
+  }
+
+  .bold-text-54 {
+    font-weight: 400;
+  }
+
+  .bold-text-55 {
+    font-size: 18px;
+    font-weight: 400;
   }
 }
 
