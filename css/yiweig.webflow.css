@@ -15655,6 +15655,7 @@ blockquote {
   }
 
   .text-block-14 {
+    margin-bottom: 16px;
     font-size: 12px;
   }
 
@@ -15667,6 +15668,9 @@ blockquote {
   .sticker {
     width: 240px;
     height: 200px;
+    margin-top: 72px;
+    padding-top: 72px;
+    padding-bottom: 72px;
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
@@ -15700,7 +15704,7 @@ blockquote {
   }
 
   .sticker-cover {
-    display: none;
+    display: block;
     width: 240px;
     height: 200px;
   }
