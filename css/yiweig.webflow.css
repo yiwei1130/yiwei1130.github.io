@@ -7103,7 +7103,7 @@ blockquote {
   background-color: transparent;
   color: #e8eaf1;
   font-size: 20px;
-  line-height: 150%;
+  line-height: 175%;
   font-weight: 300;
 }
 
@@ -7374,16 +7374,16 @@ blockquote {
 }
 
 .text-block-15-copy {
-  max-width: 480px;
+  max-width: 660px;
   margin-bottom: 40px;
   padding-left: 0px;
   font-family: Roboto, sans-serif;
   color: #e8eaf1;
   font-size: 16px;
   line-height: 32px;
-  font-style: italic;
+  font-style: normal;
   font-weight: 300;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
 }
 
@@ -7690,7 +7690,7 @@ blockquote {
   color: #e8eaf1;
   font-size: 16px;
   line-height: 200%;
-  font-style: italic;
+  font-style: normal;
   font-weight: 300;
 }
 
@@ -7801,6 +7801,10 @@ blockquote {
 
 .link-4 {
   color: #e8eaf1;
+}
+
+.italic-text-7 {
+  font-style: normal;
 }
 
 .home_pop-bulb {
@@ -9082,6 +9086,7 @@ blockquote {
 .italic-text-14 {
   padding-right: 8px;
   padding-left: 8px;
+  font-style: normal;
 }
 
 .bold-text-43 {
@@ -9235,6 +9240,23 @@ blockquote {
 
 .section-15 {
   margin-bottom: 80px;
+}
+
+.italic-text-15 {
+  font-style: normal;
+}
+
+.italic-text-16 {
+  font-style: normal;
+}
+
+.link-11 {
+  color: #333;
+  text-decoration: none;
+}
+
+.link-11:hover {
+  text-decoration: underline;
 }
 
 @media screen and (min-width: 1280px) {
@@ -9464,6 +9486,7 @@ blockquote {
   }
 
   .h3 {
+    margin-top: 80px;
     font-family: Roboto, sans-serif;
     font-weight: 500;
   }
@@ -9543,6 +9566,13 @@ blockquote {
     white-space: normal;
   }
 
+  .project-thum_des {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
   .h2_home-project-heading {
     font-weight: 500;
   }
@@ -9600,6 +9630,10 @@ blockquote {
     text-decoration: none;
     text-indent: 0em;
     white-space: normal;
+  }
+
+  .div_question {
+    padding-top: 0px;
   }
 
   .p-center-copy {
@@ -9876,8 +9910,62 @@ blockquote {
     font-family: Roboto, sans-serif;
   }
 
+  .text-block-14 {
+    font-style: normal;
+  }
+
+  .text-block-15 {
+    font-style: normal;
+  }
+
+  .text-block-15-copy {
+    font-style: normal;
+    font-weight: 300;
+    text-align: left;
+  }
+
+  .italic-text-6 {
+    font-style: normal;
+  }
+
+  .sticker-cover {
+    display: block;
+  }
+
+  .sticker-sm {
+    padding-right: 16px;
+    padding-left: 16px;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+  }
+
+  .text-block-14-copy {
+    max-width: 68%;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+  }
+
   .h3_about-center {
     font-family: Roboto, sans-serif;
+  }
+
+  .div-block-136-copy {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    justify-items: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
   }
 
   .p-list {
@@ -9901,6 +9989,14 @@ blockquote {
   .h3-first {
     font-family: Roboto, sans-serif;
     font-weight: 500;
+  }
+
+  .text_center-q {
+    margin-top: 80px;
+  }
+
+  .container-7 {
+    height: 64px;
   }
 
   .image-68 {
@@ -9939,6 +10035,10 @@ blockquote {
     text-decoration: none;
     text-indent: 0em;
     white-space: normal;
+  }
+
+  .div-block-170 {
+    margin-top: 0px;
   }
 
   .image-71-copy {
@@ -10887,7 +10987,7 @@ blockquote {
   }
 
   .project-thum {
-    width: 70vw;
+    width: 65vw;
     height: 70vh;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
@@ -10911,10 +11011,10 @@ blockquote {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     align-self: center;
@@ -12485,6 +12585,17 @@ blockquote {
 
   .image-91 {
     max-width: 45%;
+  }
+
+  .link-11 {
+    color: #333;
+    text-decoration: none;
+  }
+
+  .link-11:hover {
+    background-color: transparent;
+    color: #394988;
+    text-decoration: underline;
   }
 }
 
@@ -16442,6 +16553,17 @@ blockquote {
     grid-column-start: span 1;
     -ms-grid-column-span: 1;
     grid-column-end: span 1;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  #w-node-a4f69243c87a-d0353130 {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    -ms-grid-column-align: center;
+    justify-self: center;
   }
 }
 
