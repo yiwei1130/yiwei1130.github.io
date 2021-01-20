@@ -1186,6 +1186,7 @@ blockquote {
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
   align-self: flex-start;
+  font-family: Roboto, sans-serif;
   font-size: 24px;
   line-height: 150%;
 }
@@ -2857,6 +2858,7 @@ blockquote {
   color: #333;
   font-size: 24px;
   line-height: 150%;
+  font-style: normal;
   font-weight: 300;
 }
 
@@ -7874,13 +7876,13 @@ blockquote {
   height: auto;
   max-height: none;
   max-width: 100%;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
   margin-left: 0px;
   font-family: Roboto, sans-serif;
   color: #333;
   font-size: 16px;
   line-height: 200%;
-  font-weight: 400;
+  font-weight: 300;
   list-style-type: disc;
   -o-object-fit: contain;
   object-fit: contain;
@@ -8174,6 +8176,7 @@ blockquote {
 }
 
 .paragraph {
+  margin-bottom: 8px;
   margin-left: 24px;
   font-family: Roboto, sans-serif;
   font-size: 16px;
@@ -8656,7 +8659,7 @@ blockquote {
   font-family: Roboto, sans-serif;
   color: #333;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .bold-text-31 {
@@ -9257,6 +9260,34 @@ blockquote {
 
 .link-11:hover {
   text-decoration: underline;
+}
+
+.italic-text-17 {
+  font-style: normal;
+}
+
+.text-span-34 {
+  font-style: normal;
+}
+
+.italic-text-18 {
+  font-style: normal;
+}
+
+.italic-text-19 {
+  font-style: normal;
+}
+
+.list-16 {
+  margin-bottom: 8px;
+}
+
+.list-17 {
+  margin-bottom: 8px;
+}
+
+.italic-text-20 {
+  font-style: normal;
 }
 
 @media screen and (min-width: 1280px) {
