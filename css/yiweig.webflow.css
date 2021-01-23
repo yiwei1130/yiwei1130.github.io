@@ -8375,6 +8375,8 @@ blockquote {
 }
 
 .image-72 {
+  width: 40px;
+  margin-left: 40px;
   -webkit-align-self: stretch;
   -ms-flex-item-align: stretch;
   -ms-grid-row-align: stretch;
@@ -11083,6 +11085,7 @@ blockquote {
     font-family: Roboto, sans-serif;
     font-size: 16px;
     line-height: 200%;
+    text-align: left;
   }
 
   .p_home-project-des {
@@ -12554,6 +12557,10 @@ blockquote {
     -ms-flex-item-align: stretch;
     -ms-grid-row-align: stretch;
     align-self: stretch;
+  }
+
+  .list-13 {
+    padding-left: 0px;
   }
 
   .text-block-17 {
