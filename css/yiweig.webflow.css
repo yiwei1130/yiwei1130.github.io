@@ -9292,6 +9292,31 @@ blockquote {
   font-style: normal;
 }
 
+.bold-text-56 {
+  font-weight: 400;
+}
+
+.image-92 {
+  width: auto;
+  max-width: 990px;
+  min-width: 800px;
+}
+
+.bold-text-57 {
+  font-weight: 400;
+}
+
+.image-93 {
+  width: 900px;
+  max-width: 80vw;
+  min-width: auto;
+}
+
+.image-95 {
+  width: 950px;
+  max-width: 80vw;
+}
+
 @media screen and (min-width: 1280px) {
   .nav03_container {
     margin-right: 25vw;
@@ -10094,6 +10119,15 @@ blockquote {
   .bold-text-55 {
     font-size: 18px;
     font-weight: 400;
+  }
+
+  .image-93 {
+    width: 1080px;
+    max-width: 70vw;
+  }
+
+  .image-95 {
+    width: 1000px;
   }
 }
 
@@ -12634,6 +12668,42 @@ blockquote {
     background-color: transparent;
     color: #394988;
     text-decoration: underline;
+  }
+
+  .image-93 {
+    width: 1080px;
+    max-width: 65vw;
+  }
+
+  .bold-text-58 {
+    font-weight: 400;
+  }
+
+  .div-block-177 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .div-block-178 {
+    width: 60%;
+  }
+
+  .image-94 {
+    width: 280px;
+  }
+
+  .image-95 {
+    width: 1050px;
   }
 }
 
