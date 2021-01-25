@@ -1534,11 +1534,13 @@ blockquote {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 80vw;
+  width: 100vw;
   height: 75vh;
   min-height: 65vh;
   margin-top: 0px;
   margin-bottom: 0px;
+  padding-right: 10vw;
+  padding-left: 10vw;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -1646,7 +1648,7 @@ blockquote {
   width: 80%;
   margin-bottom: 24px;
   margin-left: 40px;
-  background-color: #f3f5f8;
+  background-color: transparent;
   font-family: Roboto, sans-serif;
   color: #394988;
   font-size: 16px;
@@ -1670,6 +1672,12 @@ blockquote {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  text-decoration: none;
+}
+
+.link-block-3:hover {
+  background-color: #ffec80;
+  text-align: left;
 }
 
 .p_home-project-des {
@@ -1678,7 +1686,7 @@ blockquote {
   width: 80%;
   margin-bottom: 0px;
   margin-left: 40px;
-  background-color: #f3f5f8;
+  background-color: transparent;
   font-family: Roboto, sans-serif;
   color: #504747;
   font-size: 16px;
@@ -1910,7 +1918,7 @@ blockquote {
 
 .div-block-35 {
   position: relative;
-  background-color: #f3f5f8;
+  background-color: transparent;
 }
 
 .p-center {
@@ -5903,7 +5911,7 @@ blockquote {
 
 .container-7 {
   display: block;
-  height: 120px;
+  height: 48px;
 }
 
 .image-68 {
@@ -6926,6 +6934,10 @@ blockquote {
   font-weight: 400;
 }
 
+.italic-text-21 {
+  color: #394988;
+}
+
 @media screen and (min-width: 1280px) {
   .nav03_container {
     margin-right: 25vw;
@@ -7669,6 +7681,7 @@ blockquote {
 
   .link-block {
     z-index: 999;
+    width: 100vw;
   }
 
   .h3 {
@@ -7918,7 +7931,7 @@ blockquote {
   .div-block-23 {
     width: 30px;
     height: 46px;
-    margin-top: 16px;
+    margin-top: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
     -webkit-box-flex: 0;
@@ -7929,7 +7942,7 @@ blockquote {
     background-color: #fff;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(rgba(243, 245, 248, 0.38)));
     background-image: linear-gradient(180deg, #fff, rgba(243, 245, 248, 0.38));
-    box-shadow: 3px 3px 6px 0 rgba(208, 211, 223, 0.72);
+    box-shadow: none;
   }
 
   .wrapper_full-height {
@@ -7940,6 +7953,7 @@ blockquote {
   .wrapper_hero {
     position: relative;
     height: 100vh;
+    margin-bottom: 40px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -7953,7 +7967,7 @@ blockquote {
     height: auto;
     max-height: 85%;
     margin-top: 140px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -7984,6 +7998,7 @@ blockquote {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    margin-bottom: 16px;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -8013,8 +8028,10 @@ blockquote {
   }
 
   .project-thum {
-    width: 65vw;
+    width: 100vw;
     height: 70vh;
+    padding-right: 17vw;
+    padding-left: 17vw;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
@@ -9299,6 +9316,11 @@ blockquote {
     align-items: center;
   }
 
+  .wrapper_background-image-loc {
+    background-color: #d1dbff;
+    background-image: none;
+  }
+
   .image-73-copy {
     height: 780px;
   }
@@ -10215,6 +10237,50 @@ blockquote {
     height: auto;
   }
 
+  .project-thum {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .project-thum_des {
+    width: 100%;
+    padding-right: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .h2_home-project-heading {
+    margin-bottom: 18px;
+    margin-left: 0px;
+    font-size: 18px;
+    line-height: 36px;
+  }
+
+  .p_project-cat {
+    margin-bottom: 18px;
+    margin-left: 0px;
+  }
+
+  .p_home-project-des {
+    width: 100%;
+    margin-left: 0px;
+  }
+
   .lightbox-link {
     left: 40px;
   }
@@ -10807,7 +10873,7 @@ blockquote {
   }
 
   .project-thum {
-    width: 90vw;
+    width: 100vw;
     height: auto;
     margin-bottom: 0px;
     -webkit-box-orient: vertical;
@@ -12085,6 +12151,10 @@ blockquote {
     margin-bottom: 0px;
   }
 
+  .div-block-141 {
+    margin-bottom: 24px;
+  }
+
   .image-66 {
     width: auto;
     max-width: 85%;
@@ -12227,15 +12297,16 @@ blockquote {
 
   .image-72 {
     display: block;
+    width: 28px;
     margin-left: 0px;
-    -webkit-align-self: stretch;
-    -ms-flex-item-align: stretch;
-    -ms-grid-row-align: stretch;
-    align-self: stretch;
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
   }
 
   .image-73 {
@@ -12288,8 +12359,8 @@ blockquote {
   }
 
   .background-video-4 {
-    width: 330px;
-    height: 203px;
+    width: 300px;
+    height: 185px;
   }
 
   .image-76 {
@@ -12581,6 +12652,73 @@ blockquote {
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     align-self: center;
+  }
+
+  .list-16 {
+    padding-left: 24px;
+  }
+
+  .list-17 {
+    padding-left: 24px;
+  }
+
+  .image-92 {
+    display: block;
+    width: auto;
+    max-width: 90vw;
+    min-width: auto;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+  }
+
+  .div-block-177 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .image-94 {
+    width: 200px;
+  }
+
+  .list-18 {
+    padding-left: 24px;
+  }
+
+  .list-19 {
+    padding-left: 24px;
+  }
+
+  .list-20 {
+    padding-left: 24px;
+  }
+
+  .list-21 {
+    padding-left: 24px;
+  }
+
+  .list-22 {
+    padding-left: 24px;
+  }
+
+  .list-23 {
+    padding-left: 24px;
+  }
+
+  .list-24 {
+    padding-left: 24px;
+  }
+
+  .list-25 {
+    padding-left: 24px;
+  }
+
+  .list-26 {
+    padding-left: 24px;
   }
 }
 
