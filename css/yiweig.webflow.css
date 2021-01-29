@@ -272,6 +272,8 @@ blockquote {
   top: 0%;
   right: 0%;
   bottom: 0%;
+  -webkit-filter: contrast(200%) brightness(200%);
+  filter: contrast(200%) brightness(200%);
 }
 
 .f07_social_icon {
