@@ -9850,6 +9850,7 @@ blockquote {
   }
 
   .h1 {
+    max-width: 80vw;
     font-size: 32px;
   }
 
@@ -10234,6 +10235,7 @@ blockquote {
   .image-21-copy {
     height: auto;
     max-height: 100%;
+    max-width: 90vw;
   }
 
   .h3_about {
@@ -10589,6 +10591,10 @@ blockquote {
     -ms-flex-item-align: auto;
     -ms-grid-row-align: auto;
     align-self: auto;
+  }
+
+  .image-92 {
+    max-width: 90vw;
   }
 
   .div-block-150-copy {
