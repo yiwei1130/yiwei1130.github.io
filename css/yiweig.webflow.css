@@ -7520,6 +7520,7 @@ blockquote {
   }
 
   .div-block-85 {
+    max-width: 1080px;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
@@ -8839,7 +8840,7 @@ blockquote {
 
   .div-block-85 {
     width: auto;
-    max-width: 75vw;
+    max-width: 1080px;
   }
 
   .p-center-copy {
